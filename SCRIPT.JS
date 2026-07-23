@@ -43,7 +43,7 @@ btn.addEventListener("click", () => {
 
     btn.disabled = true;
     btn.style.display = "none";
-    voice.style.display = "block";
+    voice.style.display = "flex";
 
     recognition.start();
 });
